@@ -212,3 +212,79 @@ form label {
     font-size: 0.9rem;
     padding: 0rem;
 }
+
+
+/* ------------------responsivness--------------------- */
+@media (max-width:368.98px){
+ 
+}
+@media (max-width:575.98px){
+    .gal-content {
+        padding: 2rem 2rem 3rem 4rem !important;
+        margin-top: 0rem !important;
+    }
+}
+@media (max-width:500px){
+    form {
+        width: 100%;
+    }
+    .header-p , .hform-col , .why-ul , .exp-content{
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+}
+
+}
+@media (max-width:767.98px){
+    form{
+        margin: auto;
+    }
+    .header-sec .header-col {
+        padding-bottom: 0rem !important;
+    }
+    .hform-col {
+        padding-top: 0rem !important;
+    }
+    .footer .btn-send {
+        margin-bottom: 2rem !important;
+    }
+    .rooms-title {
+        text-align: center !important;
+    }
+    .gallery img {
+        width: 100% !important;
+    }
+}
+@media (max-width:991.98px){
+    form{
+        margin: auto;
+    }
+    
+    .why-col {
+        text-align: center;
+    } 
+    .why-col ul {
+        list-style: none;
+    }
+    .why-img , .exp-img {
+        margin-left: 0px;
+        max-width: 100% !important;
+    }
+    .exp-content {
+        margin-top: 0rem !important;
+        margin-bottom: 0rem !important;
+    }
+    .exp-col {
+        padding-bottom: 0rem !important;
+    }
+
+    .exp-icol {
+        padding-top: 0rem!important;
+    }
+    .why-ul , .exp-content{
+    padding: 0rem!important;
+    }
+    .rooms-title{
+        padding-left: 1.3rem;
+    }
+
+}
