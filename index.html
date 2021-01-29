@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link home" href="#"> <i class="fa fa-heart-o"></i> HOME</a>
+              <a class="nav-link home" href="#">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="">ABOUT US</a>
@@ -36,7 +37,7 @@
                 <a class="nav-link" href="">CONTACT US</a>
               </li>            
             <li class="nav-item">
-                <a class="nav-link" href="tel:16041">16041</a>
+                <a class="nav-link tel"   href="tel:16041">16041</a>
           </ul>
         </div>
       </nav>
@@ -44,9 +45,9 @@
       </div>
       <!-- header -->
       <section class="header-sec">
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <div class="header-content">
+        <div class="row no-gutters p-lg-4">
+          <div class="col-lg-6 p-5">
+            <div class="header-content pt-lg-3">
               <h1>Who are we?</h1>
               <p class="light">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi perspiciatis rerum modi mollitia nulla
@@ -61,31 +62,32 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="title mx-auto my-5">
+          <div class="col-lg-6 p-5">
+            <form id="contact-form" method="post" action="*.php" role="form" class="pb-lg-2 w-75 ml-auto">
+               <div class="title mx-auto">
               <h3>YOUR CONTACT DETAILS</h3>
-            </div>
-            <form id="contact-form" method="post" action="*.php" role="form" class="pb-lg-2">
-              <div class="controls">
+            </div>  
+            <div class="controls">
                 <div class="row no-gutters">
                   <div class="col-12">
                     <div class="form-group">
                       <label for="form_name" class="label">Full Name</label>
                       <input id="form_name" type="text" name="name" class="form-control" required="required"
                         data-error="name is required.">
+                  
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
                       <label for="form_subject">Phone Number</label>
-                      <input id="form_subject" type="text" name="subject" class="form-control">
+                      <input id="form_subject" type="tel" name="subject" class="form-control">
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
-                      <label for="form_email">Email *</label>
+                      <label for="form_email">Email</label>
                       <input id="form_email" type="email" name="email" class="form-control" required="required"
                         data-error="Valid email is required.">
                       <div class="help-block with-errors"></div>
@@ -96,15 +98,15 @@
               <div class="clearfix"></div>
               <div class="row no-gutters">
                 <div class="col-md-12">
-                  <div class="form-group">
-                    <label for="form_message">Message *</label>
+                  <div class="form-group mt-5">
+                    <label for="form_message">Message</label>
                     <textarea id="form_message" name="message" class="form-control text-area" row no-gutterss="4"
                       required="required" data-error="send a message."></textarea>
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
                 <div class="col-md-12 d-flex justify-content-center">
-                  <input type="submit" class="btn btn-send py-3 px-4" value="Send message">
+                  <input type="submit" class="btn btn-send" value="Send message">
                 </div>
               </div>
             </form>
