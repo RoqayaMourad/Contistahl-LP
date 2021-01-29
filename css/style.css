@@ -40,17 +40,17 @@ letter-spacing:1px;
     font-weight: 600;
     letter-spacing: 1px;
 }
-.header-content .light{
+.header-content .light , .explore .light , .gallery .light{
     font-size:0.9rem;
     font-weight:400;
-    line-height:1.3;
-    color: #d4d4d3;
+    line-height:1.5;
+    color: #b5b5ac ;
 
 }
-.header-content .dark{
+.header-content .dark , .explore .dark , .gallery .dark{
     font-size:0.9rem;
     font-weight:400;
-    line-height:1.3;
+    line-height:1.5;
     color: #ffffff;
     font-style: italic;
 }
@@ -58,11 +58,12 @@ form h3 {
     font-size:1.2rem ;
     font-weight:400 ;
     letter-spacing:0px ;
+    color: #e2d7d7;
 
 }
 form label {
     letter-spacing: 2px;
-    font-size:0.7rem;
+    font-size:1rem;
     color: #e7e1e1;
     position: absolute;
     bottom: 11px;
@@ -121,26 +122,59 @@ form label {
     color:#fff;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* -----------------------------whu-us----------------------- */
 .why-col{
     background-color:#00395E;
+    color: #fff;
+}
+.why-col h3,.explore h3 , .gallery h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.why-col .why-ul , .explore .exp-content{
+    padding: 3rem 5rem 3rem 3rem;
+}
+.why-ul li {
+    font-size: 0.8rem;
+    color: #dae5ec;
+    line-height: 1.9;
+}
+.why-img {
+    margin-left: -85px;
+    max-width: 125% !important;
+
 }
 
 /* -----------------------------explore----------------------- */
-
-
-/* -----------------------------gallery------------------------- */
-
+.explore h3 , .gallery h3{
+    color: #00395E;
+}
+.explore .light , .gal-content .light {
+    color: rgb(140 134 134);
+}
+.explore .dark , .gal-content .dark {
+    color: #1d1b1b;
+    font-weight: 600;
+}
+.exp-img {
+    margin-top: 3rem;
+    margin-left: -85px;
+    max-width: 125% !important;
+    object-fit: cover;
+    width:116%;
+    height: 233px;
+}
+/* ----------------------------gallery------------------------- */
+.gallery {
+    background-color: #F8F8F8;
+}
+.gallery img {
+    object-fit: cover;
+    height: 100%;
+}
+.gal-content {
+    padding: 3rem 5rem 3rem 7rem;
+}
 
 /* -----------------------------footer----------------------- */
 .footer {
@@ -153,5 +187,28 @@ form label {
     background-color: #00385ef5;
 }
 .rooms-col {
-    background-color:#e6e6e6f5 ;
+    background-color:#e6e6e6dc ;
+}
+.rooms-title h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1d1b1b;
+}
+.room-details {
+   border-bottom: 2px solid #cabfbf ;
+}
+.room-details h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing:1px ;
+}
+
+.room-details p{
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+.room-details a {
+    color: #000;
+    font-size: 0.9rem;
+    padding: 0rem;
 }
