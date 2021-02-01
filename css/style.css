@@ -131,8 +131,11 @@ form label {
     font-size: 2.2rem;
     font-weight: 600;
 }
-.why-col .why-ul , .explore .exp-content{
-    padding: 3rem 5rem 3rem 3rem;
+.explore .exp-content {
+    padding: 0rem 3rem 2rem 2rem;
+}
+.why-col .why-ul {
+    padding: 1rem 3rem 2rem 2rem;
 }
 .why-ul li {
     font-size: 0.8rem;
@@ -141,7 +144,7 @@ form label {
 }
 .why-img {
     margin-left: -85px;
-    max-width: 125% !important;
+    max-width: 116% !important;
 
 }
 
@@ -287,4 +290,32 @@ form label {
         padding-left: 1.3rem;
     }
 
+}
+@media (min-width:1400px){
+    .header-sec{
+        height: 100vh;
+    padding-top:5rem;
+}
+.exp-img {
+    width: 110% !important;
+}
+.header-content .light,
+ .explore .light, .gallery .light {
+    font-size: 1.2rem;
+}
+.header-content .dark, 
+.explore .dark, .gallery .dark {
+    font-size: 1.2rem;
+}
+.gallery img {
+
+    width: 100%;
+}
+.why-ul li {
+    font-size: 1.3rem;
+}
+.why-img {
+    width: 110% !important;
+    margin-left: -85px;
+}
 }
