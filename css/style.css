@@ -123,16 +123,26 @@ form label {
 }
 
 /* -----------------------------whu-us----------------------- */
+.why-us {
+    background-image: url(../imgs/Untitled-19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .why-col{
     background-color:#00395E;
     color: #fff;
+}
+.whyimg-col{
+    background-color:#e6e6e6dc ;
 }
 .why-col h3,.explore h3 , .gallery h3{
     font-size: 2.2rem;
     font-weight: 600;
 }
 .explore .exp-content {
-    padding: 0rem 3rem 2rem 2rem;
+    padding: 0rem 3rem 0rem 0rem;
 }
 .why-col .why-ul {
     padding: 1rem 3rem 2rem 2rem;
@@ -152,6 +162,9 @@ form label {
 .explore h3 , .gallery h3{
     color: #00395E;
 }
+.exp-col h3 {
+    margin-top: 3rem;
+}
 .explore .light , .gal-content .light {
     color: rgb(140 134 134);
 }
@@ -164,7 +177,7 @@ form label {
     margin-left: -85px;
     max-width: 125% !important;
     object-fit: cover;
-    width:116%;
+    width:125%;
     height: 233px;
 }
 /* ----------------------------gallery------------------------- */
@@ -173,10 +186,9 @@ form label {
 }
 .gallery img {
     object-fit: cover;
-    height: 100%;
 }
 .gal-content {
-    padding: 3rem 5rem 3rem 7rem;
+    padding: 0rem 3rem 1rem 3rem;
 }
 
 /* -----------------------------footer----------------------- */
@@ -186,12 +198,16 @@ form label {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.footer a,.footer p, .footer h4{
+    font-size: 14px !important;
+  } 
 .form-col{
     background-color: #00385ef5;
 }
 .rooms-col {
     background-color:#e6e6e6dc ;
 }
+
 .rooms-title h3 {
     font-size: 1.2rem;
     font-weight: 600;
