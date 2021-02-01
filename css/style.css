@@ -20,10 +20,10 @@ letter-spacing:1px;
 .home , .tel {
     color:#d5ac63 !important;
 }
-.home::before {
+/* .home::before {
     content:"\f08a";
     margin-right: 5px;
-}
+} */
 
 
 
