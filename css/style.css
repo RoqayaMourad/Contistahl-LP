@@ -17,10 +17,16 @@ color:rgba(33, 33, 33, 1) !important;
 font-size:0.8rem;
 letter-spacing:1px;
 }
-.home , .tel {
+.home {
     color:#d5ac63 !important;
 }
-/* .home::before {
+.tel {
+    color:#003B64 !important;
+    font-size: 1.3rem;
+}
+
+
+/* .home::before#0d3d63 {
     content:"\f08a";
     margin-right: 5px;
 } */
