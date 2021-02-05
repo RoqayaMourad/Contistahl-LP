@@ -185,11 +185,10 @@ form label {
 }
 .why-img {
     margin-left: -85px;
-    max-width: 116% !important;
 
 }
 .why-us .cta-btn {
-    margin-top: 6.5rem;
+    margin-top:2rem;
 }
 
 /* -----------------------------explore----------------------- */
@@ -446,7 +445,7 @@ input[type=range]::-webkit-slider-thumb {
     }
 
 }
-@media (min-width:1400px){
+@media (min-width:1200px){
     .header-sec{
         height: 100vh;
     padding-top:5rem;
@@ -466,11 +465,13 @@ input[type=range]::-webkit-slider-thumb {
 
     width: 100%;
 }
-.why-ul li {
-    font-size: 1.3rem;
-}
 .why-img {
-    width: 110% !important;
     margin-left: -85px;
+}
+.why-col h3 {
+    font-size:2.1rem !important;
+}
+.why-us .cta-btn {
+    margin-top:1rem;
 }
 }
