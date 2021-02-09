@@ -22,8 +22,8 @@ window.onload = function() {
 };
 
 
-$("#headerSection").css({"min-height":window.innerHeight - $("#topNav").height() + "px"})
-
-$(window).on('resize', function(){
+$(window).on('resize once onload change', function(){
   $("#headerSection").css({"min-height":window.innerHeight - $("#topNav").height() + "px"})
+  $("#headerSection>div").css({"min-height":window.innerHeight - $("#topNav").height() + "px"})
+  $("#headerSection>div>div").css({"min-height":window.innerHeight - $("#topNav").height() + "px"})
 });
