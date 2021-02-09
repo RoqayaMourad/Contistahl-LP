@@ -6,7 +6,7 @@
     $headers = 'From: Contistahl Group Website <contistahl@lp-quadsolutions.com> ' . "\r\n" .
     'Reply-To: contistahl@lp-quadsolutions.com ' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-    $EmailTo = "emmasmith.quad@gmail.com";
+    $EmailTo = "leads@lp-quadsolutions.com";
     $Body = "";
     $Body .= "Name: ";
     $Body .= $name;
