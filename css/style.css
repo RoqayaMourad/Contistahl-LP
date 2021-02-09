@@ -137,7 +137,13 @@ form label {
 .btn-send:hover {
     color:#fff;
 }
-
+.mob-form {
+    background-color: #1D1312;
+}
+.mob-form #contact-form {
+    width: 90%;
+    margin: auto;
+}
 /* -----------------------------whu-us----------------------- */
 .why-us {
     background-image: url(../imgs/Untitled-19.jpg);
@@ -317,7 +323,7 @@ input[type=range]::-webkit-slider-thumb {
     background-size: cover;
 }
 .footer a,.footer p,.footer h4{
-    font-size: 14px !important;
+    font-size: 16px !important;
   } 
 .form-col{
     background-color: #00385ef5;
@@ -327,7 +333,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .rooms-title h3 {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     font-weight: 600;
     color: #1d1b1b;
 }
@@ -335,21 +341,26 @@ input[type=range]::-webkit-slider-thumb {
    border-bottom: 2px solid #cabfbf ;
 }
 .room-details h4 {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     font-weight: 600;
-    letter-spacing:1px ;
+    letter-spacing:0px ;
+    margin-bottom:8px !important;
 }
 
 .room-details p{
     padding: 0rem !important;
     margin: 0rem !important;
+    font-weight: 600;
 }
 .room-details a {
     color: #000;
     font-size: 0.9rem;
     padding: 0rem;
 }
-
+.footer #contact-form {
+    width: 60%;
+    margin: auto;
+}
 
 /* ------------------responsivness--------------------- */
 @media (max-width:575.98px){
@@ -387,6 +398,50 @@ input[type=range]::-webkit-slider-thumb {
     .gallery img {
         width: 100% !important;
     }
+    .why-col {
+        padding: 4rem !important;
+    }
+    .why-col h3, .explore h3, .gallery h3 {
+        font-size: 2rem;
+    }
+    .why-col h3 {
+        margin-bottom: 1.5rem;
+    }
+    }
+    .why-ul li {
+        font-size: 1.1rem;
+    }
+    .why-us .cta-btn {
+        position:unset;
+    }
+    .whyimg-col {
+        display: flex;
+        justify-content: center;
+    }
+    .why-img {
+        width: 90%;
+        margin-left: 0px;
+    }
+    .contain {
+        margin-left:0px;
+    padding-right:0px;
+    }
+    .footer #contact-form {
+        width: 80%;
+    }
+    .room-details {
+        text-align: center;
+    }
+    .exp-col {
+        padding-bottom: 0px !important;
+    }
+    .gal-content {
+        margin-bottom: 3rem;
+    }
+    .gal-title {
+        text-align: left !important;
+        padding-left: 3rem !important;
+    }
 }
 @media (max-width:991.98px){
     form{
@@ -405,6 +460,24 @@ input[type=range]::-webkit-slider-thumb {
     }
     
 
+}
+@media (max-width:980px) and (min-width:767.98px){
+    .why-us h3 {
+        font-size: 1.75rem;
+    }
+    .why-ul li {
+        font-size: 1.1rem;
+    }
+    .why-col {
+        padding:3rem !important;
+    }
+    .why-img{
+        margin-left: -35px;
+    }
+    .contain {
+        margin-left: -85px;
+        padding-right: 0px;
+    }
 }
 @media (min-width:1200px){
  
