@@ -20,3 +20,10 @@ function moveDivisor() {
 window.onload = function() {
 	moveDivisor();
 };
+
+
+$("#headerSection").css({"min-height":window.innerHeight - $("#topNav").height() + "px"})
+
+$(window).on('resize', function(){
+  $("#headerSection").css({"min-height":window.innerHeight - $("#topNav").height() + "px"})
+});
